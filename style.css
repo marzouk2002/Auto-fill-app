@@ -43,6 +43,18 @@ main {
 .suggestion {
     grid-area: 2/1/5/4;
 }
+.suggestion::after{
+    content: "Sorry, the last word in you sentence is grammarly incorrect.";
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: "Source Sans Pro";
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    top:10%;
+    opacity: 0;
+}
 #input{
     width: 80%;
     height: 80%;
