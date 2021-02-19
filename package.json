@@ -1,0 +1,24 @@
+{
+  "name": "auto-fill-app",
+  "version": "1.0.0",
+  "description": "autofill app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marzouk2002/Auto-fill-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marzouk2002/Auto-fill-app/issues"
+  },
+  "homepage": "https://github.com/marzouk2002/Auto-fill-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {}
+}
